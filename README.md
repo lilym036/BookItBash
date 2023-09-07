@@ -25,6 +25,7 @@ Please click on the link to open it in your browser. Utilize the search bar to f
 
 ## Links
 <br>https://infinite-sea-02466-0f0f4ed955bc.herokuapp.com/
+<br>https://www.figma.com/community/file/1281653203825849960
 
 ## Credits
 <a href="https://github.com/sucheta90">Sucheta Mukherjee</a>
