@@ -24,9 +24,7 @@ Please click on the link to open it in your browser. Utilize the search bar to f
 <br><img src="./images/screenshot2.png"  width="30%" height="60%">
 
 ## Links
-<br><img src="./images/Untitled (2).png" width="20%" height="30%">
-<br>
-<br>https://still-everglades-63170-224d574b2b5f.herokuapp.com/
+<br>https://infinite-sea-02466-0f0f4ed955bc.herokuapp.com/
 
 ## Credits
 <a href="https://github.com/sucheta90">Sucheta Mukherjee</a>
