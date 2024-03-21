@@ -6,6 +6,7 @@ import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_ME } from '../utils/queries';
 import {REMOVE_EVENT} from "../utils/mutations";
 import { useState, useEffect } from "react";
+// eslint-disable-next-line no-unused-vars
 import { GoStar, GoStarFill } from "react-icons/go";
 import ProfileCardModal from "../components/Modals/ProfileCardModal";
 // import { Navigate, useParams } from "react-router-dom";
@@ -92,7 +93,7 @@ console.log(user.events);
             </Card>
             {user.events.length > 0 ? user.events.map((result, index) => (
           <Card
-            className="h-[11rem] space-y-5 p-4 bg-primary-900 rounded-xl mb-1 mx-1"
+            className="h-[12rem] space-y-5 p-4 bg-primary-900 rounded-xl mb-1 mx-1"
             key={result._id}
             id={result._id}
           >
@@ -139,9 +140,9 @@ console.log(user.events);
                 {result.venue[0].cityName}
               </h2>
               {/* {console.log((`New Date obj ${new Date(result.dates.start.localDate)}`).split(" "))} */}
-              {/* <h2 className="text-primary-50">
-                {result.dates.start.localDate}
-              </h2> */}
+              <h2 className="text-primary-50">
+                {result.date}
+              </h2>
               <div className="buyTicketButton">
                 <Button
                   radius="full"
